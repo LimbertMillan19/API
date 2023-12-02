@@ -138,7 +138,7 @@ const barpercent6 = computed(() => {
 
         </div>
 
-        <div class="flex space-x-2">
+        <div class="flex space-x-2 w-full">
 
             <div class="flex justify-center bg-blue-400 mt-2 rounded-md w-full">
                 <div class="text-center  ">
@@ -163,7 +163,7 @@ const barpercent6 = computed(() => {
 
         <!-- Bar -->
 
-        <div class="bg-green-400 flex fjustify-center rounded-md items-center py-8 mt-2">
+        <div class="bg-green-400 w-full flex fjustify-center rounded-md items-center py-8 mt-2">
 
             <div class="flex justify-center flex-col items-center  w-[20%]">
 
@@ -194,7 +194,7 @@ const barpercent6 = computed(() => {
 
 
 
-        <div class=" my-10 pb-10  bg-violet-300 rounded-md">
+        <div class=" my-10 pb-10 w-full bg-violet-300 rounded-md">
 
             <p class="text-2xl font-bold text-center py-3">Porcentajes en todas las carreras</p>
 
