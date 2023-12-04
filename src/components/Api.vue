@@ -119,7 +119,7 @@ const barpercent6 = computed(() => {
 
 
 <template>
-    <div class="bg-red-200 rounded-md  m-2 py-2 px-5 flex flex-col md:w-[50%] w-full justify-center items-center">
+    <div class="bg-cyan-200 rounded-md  m-2 py-2 px-5 flex flex-col md:w-[50%] w-full justify-center items-center">
         <h1 class="mx-5 mt-10 text-3xl text-center font-bold pb-5 ">SITMOTUL</h1>
         <img class="  w-[10%]" src="./logoSitmotul-58d3b94c.svg" alt="">
         <p class=" pt-5 font-bold text-center mb-5">Estado de la evaluación tutor del <span>{{ info.periodo }}</span></p>
@@ -202,7 +202,10 @@ const barpercent6 = computed(() => {
 
                 <div class="bg-violet-500 w-[90%] flex flex-col justify-center rounded-md items-center py-2 mt-2">
 
-                    <p class="pb-5 font-bold text-xl">ISC</p>
+                    <i class=" text-3xl fa-solid fa-computer"></i>
+                    <p class=" font-bold text-xl  py-3">ISC</p>
+
+                    
 
                     <div class="flex w-full">
 
@@ -239,7 +242,8 @@ const barpercent6 = computed(() => {
 
                 <div class="bg-violet-500 w-[90%] flex flex-col justify-center rounded-md items-center py-2 mt-5">
 
-                    <p class="pb-5 font-bold text-xl">IEM</p>
+                    <i class=" text-3xl fa-solid fa-screwdriver-wrench"></i>
+                    <p class="py-3 font-bold text-xl">IEM</p>
 
                     <div class="flex w-full">
 
@@ -275,7 +279,8 @@ const barpercent6 = computed(() => {
 
                 <div class="bg-violet-500 w-[90%] flex flex-col justify-center rounded-md items-center py-2 mt-5">
 
-                    <p class="pb-5 font-bold text-xl">IER</p>
+                    <i class=" text-3xl fa-solid fa-bolt"></i>
+                    <p class="py-3 font-bold text-xl">IER</p>
 
                     <div class="flex w-full">
 
@@ -311,7 +316,8 @@ const barpercent6 = computed(() => {
 
                 <div class="bg-violet-500 w-[90%] flex flex-col justify-center rounded-md items-center py-2 mt-5">
 
-                    <p class="pb-5 font-bold text-xl">IE</p>
+                    <i class=" text-3xl fa-solid fa-plug-circle-check"></i>
+                    <p class="py-3 font-bold text-xl">IE</p>
 
                     <div class="flex w-full">
 
@@ -347,7 +353,8 @@ const barpercent6 = computed(() => {
 
                 <div class="bg-violet-500 w-[90%] flex flex-col justify-center rounded-md items-center py-2 mt-5">
 
-                    <p class="pb-5 font-bold text-xl">II</p>
+                    <i class=" text-3xl fa-solid fa-industry"></i>
+                    <p class="py-3 font-bold text-xl">II</p>
 
                     <div class="flex w-full">
 
